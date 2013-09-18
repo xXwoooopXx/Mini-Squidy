@@ -1,0 +1,15 @@
+/*
+Author: Johanna Rasmussen
+Contact: e-mail Johanna_Narnia@hotmail.com
+Description: A basic CSS
+*/
+body{
+	background-color: #27e369;
+}
+	#container{
+	border-width: 6px;
+	border-style: solid;
+	border-color: #8300bd;
+}
+
+<body>
