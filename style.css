@@ -3,13 +3,201 @@ Author: Johanna Rasmussen
 Contact: e-mail Johanna_Narnia@hotmail.com
 Description: A basic CSS
 */
-body{
-	background-color: #27e369;
-}
-	#container{
-	border-width: 6px;
-	border-style: solid;
-	border-color: #8300bd;
+body {
+	background-color: #ccc;
+	height: 100%;
+	width: 100%;
 }
 
-<body>
+#container_portfolio {
+	height: 1760px;
+}
+
+#navbar {
+	margin: 20px 0 10px 0;
+	background-color: #5d2680;
+	width: 200px;
+	height: 621px;
+	float: left;
+}
+
+ nav > ul {
+	list-style: none;
+	color: #000;
+}
+
+.profile_picture {
+	width: 120px;
+	height: 160px;
+	margin: 20px 0 20px 40px;
+}
+
+a {
+	color: #000;
+}
+
+#hem{
+	background: url(hem_button.png) center no-repeat;
+	background-size: 85%;
+}
+
+#hem > a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#portfolio {
+	background: url(arbeten_portfolio_button.png) center no-repeat;
+	background-size: 85%;
+}
+
+#portfolio > a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#blogg {
+	background: url(blogg_button.png) center no-repeat;
+	background-size: 85%;
+}
+
+#blogg > a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#omMig {
+	background: url(omMig_Kontakta_button.png) center no-repeat;
+	background-size: 85%;
+}
+
+#omMig > a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+h1 {
+	text-align: center;
+}
+
+#mainContent {
+	width: 500px;
+	float: left;
+	margin-left: 20px;
+	clear: right;
+}
+
+.buttons > li > a {
+	width: 100%;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+header {
+	width: 1090px;
+	height: 80px;
+	background-color: #aa67d5;
+	text-shadow: 5px 5px 5px #ddd;
+	font-family: "Merienda one", cursive;
+}
+ 
+section {
+	width: 1090px;
+	height: 500px;
+	background-color: #aa67d5;
+	word-wrap: break-word;
+}
+
+.column {	
+	margin: 40px 0 40px 0px;
+	float: left;
+}
+
+.home_textBlock {
+	width: 450px;
+	height: 150px;
+	background-color: rgba(108,10,171,0.5);
+	margin: 40px 0 40px 300px;
+}
+
+p {
+	margin: 10px 10px 0 10px;
+}
+
+.about_textBlock {
+	width: 700px;
+	height: 400px;
+	background-color: rgba(108,10,171,0.5);
+	margin: 40px 0 40px 200px;
+}
+
+dl {
+	margin: 10px 10px 0 10px;
+}
+
+#navbar_second {
+		background-color: rgba(108,10,171,0.5);
+		width: 140px;
+		height: 60px;
+}
+
+.blog_textBlock1 {
+	width: 550px;
+	height: 130px;
+	background-color: rgba(108,10,171,0.5);
+	margin: 40px 0 0 260px;
+}
+
+.blog_textBlock2 {
+	width: 550px;
+	height: 110px;
+	background-color: rgba(108,10,171,0.5);
+	margin: 40px 0 0 260px;
+}
+
+.blog_textBlock3 {
+	width: 550px;
+	height: 110px;
+	background-color: rgba(108,10,171,0.5);
+	margin: 40px 0 0 260px;
+}
+
+.pacman {
+	width: 500px;
+	margin: 10px 0 0 275px;
+}
+
+.battleship {
+	width: 600px;
+	margin: 10px 0 0 230px;
+}
+
+.parkour {
+	width: 500px;
+	margin: 10px 0 0 300px;
+}
+
+.search_textBlock {
+	width: 500px;
+	height: 70px;
+	background-color: rgba(108,10,171,0.5);
+	margin: 40px 0 40px 300px;
+}
+
+.clear {
+	clear: both;
+}
+
+footer {
+	display: block;
+	margin: 3em 0;
+	background-color: #2d2730;
+	color: #777;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
